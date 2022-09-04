@@ -30,7 +30,17 @@
     "@typescript-eslint",
     "import"
   ],
-  "rules": {},
+  "rules": {
+    "no-shadow":"off", 
+    "react/jsx-filename-extension": [
+      1, 
+      { 
+        "extensions": [
+          ".ts", ".tsx"
+        ] 
+      }
+    ]
+  },
   "settings": {
     "react": {
       "version": "detect"
